@@ -149,10 +149,6 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .productImg {
-
-    }
-
     .desktopImg {
         display: block;
         opacity: 0.9;
