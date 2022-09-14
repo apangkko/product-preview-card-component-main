@@ -53,14 +53,21 @@ body {
 .container {
     max-width: 375px;
     margin: 0 auto;
-    display: grid;
     border-radius: 8px;
     overflow: hidden;
-    align-content: start;
+}
+
+.productImg {
+    background-color: #000;
+    display: grid;
 }
 
 .desktopImg {
     display: none;
+}
+
+.mobileImg {
+    opacity: 0.9;
 }
 
 .productInfo {
@@ -138,16 +145,17 @@ body {
 
     .container {
         max-width: 600px;
-        margin: 0 auto;
-        display: flex;
-        border-radius: 8px;
-        overflow: hidden;
-        align-content: start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .productImg {
+
     }
 
     .desktopImg {
-        width: 50%;
         display: block;
+        opacity: 0.9;
     }
     
     .mobileImg {
