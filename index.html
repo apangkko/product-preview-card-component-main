@@ -13,10 +13,10 @@
 <body>
   <main class="wrapper">
     <div class="container">
-      <div class="productImg">
-        <img src="images/image-product-desktop.jpg" class="desktopImg" alt="Gabrielle Essence Eau De Parfum">
-        <img src="images/image-product-mobile.jpg" class="mobileImg" alt="Gabrielle Essence Eau De Parfum">
-      </div>
+      <picture class="productImgs">
+        <source class="productImg" media="(min-width:600px)" srcset="images/image-product-desktop.jpg">
+        <img class="productImg"  src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
+      </picture>
       
       <div class="productInfo">
         <p class="productCat">Perfume</p>
